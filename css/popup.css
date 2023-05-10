@@ -1,0 +1,33 @@
+.wrapper {
+    width: 300px;
+    text-align: center;
+}
+
+.pickColorButton {
+    cursor: pointer;
+    background: #facc15;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    padding-inline: 50px;
+    padding-block: 5px;
+}
+
+#colorBox {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+#colorHex {
+    border: none;
+    outline: none;
+}
+
+.selectedColor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
